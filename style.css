@@ -381,14 +381,14 @@ html{
 }
 
 .name{
-
+    width: 30%;
 }
 
 .email{
-
+    width: 30%;
 }
 
 .message{
-
+    width: 60%;
 }
 
