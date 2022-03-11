@@ -9,7 +9,8 @@ html{
 }
 
 #home{
-    background: url(/background1.png) no-repeat center center fixed;
+    background: url(/dexus-office-space.jpg) no-repeat center center fixed;
+    background-size: cover;
     width: 100%;
     height: 100vh;
     position: relative; 
@@ -281,7 +282,7 @@ html{
 
 #contact{ 
     background-color:white;
-    height: 100vh;
+    height: 100%;
     width: 100%;
 }
 
@@ -444,7 +445,7 @@ html{
 }
 
 #footerbar{
-    margin-top: 300px;
+    /* margin-top: 300px; */
     width:100%;
     height:100px;
     background:black;
