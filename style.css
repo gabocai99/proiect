@@ -26,7 +26,7 @@ html{
     padding-right: 5%;
     width: 100%;
     background-color: transparent;
-    animation: fadeInAnimation ease 1s;
+    animation: fadeInAnimation ease 1.5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
@@ -90,7 +90,7 @@ html{
     top: 30%;
     left:30%;
     transform: translateX(-50%);
-    animation: fadeInAnimation ease 1s;
+    animation: fadeInAnimation ease 1.5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 
