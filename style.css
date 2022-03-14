@@ -13,7 +13,8 @@ html{
     background-size: cover;
     width: 100%;
     height: 100vh;
-    position: relative; 
+    position: relative;
+    
 }
 
 .navbar{
@@ -25,6 +26,9 @@ html{
     padding-right: 5%;
     width: 100%;
     background-color: transparent;
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 .zoom{
@@ -84,8 +88,13 @@ html{
     text-align: center;
     padding:50px;
     top: 30%;
-    left:50%;
+    left:30%;
     transform: translateX(-50%);
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+    
 }
 
 .getstarted{
@@ -408,6 +417,7 @@ html{
 }
 
 .messagetextarea{ 
+    resize: none;
     width: 100%;    
     padding: 10px;
     height: 15em;   
@@ -464,4 +474,15 @@ html{
 
 .img3{
     width: 6%;
+}
+
+@keyframes fadeInAnimation {
+	from {
+		opacity: 0;
+		transform: translate3d(0, -30%, 0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
 }
